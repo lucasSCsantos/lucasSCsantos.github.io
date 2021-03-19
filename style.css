@@ -1,6 +1,14 @@
 
+body{
+    text-align: center;
+    font-family: Lato, sans-serif;
+    width: 100%;
+    margin: 0; 
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
-#imagem{
+img{
     border-radius: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -9,22 +17,11 @@
     border-style: solid;
     border-color: #03045E;
     padding: 10px;
-    
 }
 
-#info{
+h1{
     color: #03045E;
     font-weight: 800;
-}
-
-body{
-    text-align: center;
-    font-family: Lato, sans-serif;
-    width: 100%;
-    margin: 0; 
-    margin-top: 70px;
-    margin-bottom: 70px;
-
 }
 
 ul{
@@ -32,7 +29,7 @@ ul{
     margin-left: -43px
 }
 
-.habili{
+#second-session-div{
     background-color: #0077B6;
     width: 100%;
     margin: none;
