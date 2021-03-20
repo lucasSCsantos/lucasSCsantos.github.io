@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+}
+
 body{
     text-align: center;
     font-family: Lato, sans-serif;
@@ -49,4 +53,39 @@ ul{
 
 .links:hover{
     color: #00B4D8;
+}
+
+.first_section{
+    
+    height: 490px;
+}
+
+.first_title{
+    float: left;
+    width: 50%;
+    height: 470px;
+    align-items: center;
+}
+
+.first_title h1, .first_title img{
+    margin-top: 15px;
+}
+
+.first_title h1{
+    margin-left: 10px;
+}
+
+.fisrt_text{
+    float: right;
+    text-align: center;
+    
+    width: 50%;
+    height: 470px;
+    align-items: center;
+    
+}
+
+.fisrt_text p{
+    font-size: 110%;
+    margin: 150px 100px;
 }
