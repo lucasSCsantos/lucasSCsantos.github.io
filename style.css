@@ -8,7 +8,7 @@ body{
     font-family: Lato, sans-serif;
     width: 100%;
     margin: 0; 
-    margin-top: 70px;
+    
     margin-bottom: 70px;
 }
 
@@ -38,8 +38,27 @@ ul{
     width: 100%;
     margin: none;
     padding: 10px 0px 10px 0px;
+    height: 490px;
     background-size: cover;
     color: white ;
+}
+
+.second_session{
+    position: relative;
+    top: 15%;
+}
+
+.second_session h2{
+    position: relative;
+
+    font-size: 200%;
+}
+
+.second_session ul li{
+    position: relative;
+    top: 2.5em;
+    font-size: 20px;
+
 }
 
 .links{
@@ -58,7 +77,8 @@ ul{
 .first_section{
     
     height: 490px;
-    padding-bottom: 50px;
+    box-sizing: border-box;
+    padding-bottom: 500px;
     padding-top: 35px;
 }
 
@@ -67,10 +87,11 @@ ul{
     width: 50%;
     height: 470px;
     align-items: center;
+    
 }
 
 .first_title h1, .first_title img{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .first_title h1{
@@ -84,10 +105,41 @@ ul{
     width: 50%;
     height: 470px;
     align-items: center;
+    box-sizing: border-box;
+    padding: 100px 100px;
     
 }
 
 .fisrt_text p{
     font-size: 110%;
-    margin: 150px 100px;
+    margin-top: 18%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.third-session-div{
+    width: 100%;
+    margin: none;
+    padding: 10px 0px 10px 0px;
+    height: 320px;
+    background-size: cover;
+    
+}
+
+.third_session{
+    position: relative;
+    top: 15%;
+}
+
+.third_session h2{
+    position: relative;
+    top: ;
+    font-size: 200%;
+}
+
+.third_session ul li{
+    position: relative;
+    top: 2.5em;
+    font-size: 20px;
+
 }
