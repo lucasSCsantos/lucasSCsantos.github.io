@@ -1,146 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Portifólio Web</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Paleta de cor: 03045e-0077b6-00b4d8-90e0ef-caf0f8 -->
-    
-    <style>
-
-body{
-    text-align: center;
-    font-family: Lato, sans-serif;
-    width: 100%;
-    margin: 0; 
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-img{
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 15px;
-    border-style: solid;
-    border-color: #03045E;
-    padding: 10px;
-}
-
-h1{
-    color: #03045E;
-    font-weight: 800;
-}
-
-ul{
-    list-style-type: none;
-    margin-left: -43px
-}
-
-#second-session-div{
-    background-color: #0077B6;
-    width: 100%;
-    margin: none;
-    padding: 10px 0px 10px 0px;
-    background-size: cover;
-    color: white ;
-}
-
-.links{
-    text-decoration: unset;
-    color: #0077B6;
-}
-
-#strongLi{
-    font-weight: bolder;
-}
-
-.links:hover{
-    color: #00B4D8;
-}
-
-  </style>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b3c8342b88.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Web</title>
+  <!-- #D4F1F4 #75E6DA #189AB4 #05445E -->
 </head>
 <body>
-
-<!-- SEÇÃO DE INICIO, INFO PESSOAL E FOTO -->
-
- 
-<h1>LUCAS SANTANA CRISTOVAM DOS SANTOS</h1> 
-<div class="first_section">
-  <div class="first_title">
-    
-    <img src="lucas-lindo.jpg" alt="Foto autor do portifólio" width="300px" id="imagem"> 
-</div>
-  
-<div class="fisrt_text" id="info">
-  <p>
-    Eu tenho 19 anos, sou natural de <strong>Salvador-BA</strong>, 
-
-    
-
-    e atualmente moro em vítoria da da conquista.
-
-    
-
-    Cursei <strong>Engenharia de Computação</strong> por um ano
-
-    
-
-    na instituição de ensino Senai Cimatec. 
-    
-    
-
-    Atualmente estou estudando Desenvolvimento Web
-   
-    
-
-    no curso da <strong>Trybe</strong>. 
-
-  </p>
-  <br>
-</div>
-</div>    
-  <!-- SEGUNDA SEÇÃO INFOS PROFISSIONAIS -->
-<div id="second-session-div">
-  <div class="second_session">
-    <h2 id="habi">Habilidades:</h2>
-  
-      <ul>
-        <li><strong id="strongLi">Extrema facilidade no 
-        aprendizado de tecnologias</strong></li>
-        <br>
-        <li>Inglês Intermediário</li>
-        <br>
-        <li>Edição e criação de imagem com Photoshop</li>
-        <br>
-        <li>Edição de vídeo com Vegas Pro</li>
-        <br>
-        <li>Prática avançada em ferramentas Office</li>
-        <br>
-        <li>HTML</li>
-        
-      </ul>
-  </div>
-</div>
-  <br>  
-  <!-- TERCEIRA SEÇÃO COM LINKS  -->
-  <div class="third-session-div">
-    <div class="third_session">
-      <h2>Links:</h2>
-    
-        <ul >
-          <li><a href="#imagem" class="links">Foto</a> </li><br>
-          <li><a href="#info" class="links">Iformações pessoais</a> </li><br>
-          <li><a href="#habi" class="links">Habilidades</a> </li><br>
-          <li><a href="https://www.bibliaonline.com.br/acf/mt/25/13" target="_blank" class="links">Leia</a></li><br>
-        </ul>
+  <!-- Pre-Header -->
+  <div class="pre-header">
+    <div class="pre-header-content">
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <a href="">luc.cristovam10@gmail.com</a>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-mobile"></i>
+          <a href="">+55 (71) 98184-9630</a>
+        </div>
+      </div>
+      <nav class="social-media">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </nav>
     </div>
   </div>
 
-    
+  
+  
+  <section class="first-content">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="logo"> 
+          <i class="fas fa-palette"></i>
+          <a href="">
+            LUCAS
+          </a>
+        </div>
+        <nav class="header-nav">
+          <a href="">Home</a>
+          <a href="">Sobre</a>
+          <a href="">Portfolio</a>
+          <a href="">Testemunhos</a>
+          <a href="">Preço</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Eu sou Lucas</h1>
+          <h2>Web Designer</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos maxime, hic explicabo perspiciatis eum unde veniam repellat architecto aliquam voluptatibus </p>
+          <a href="" class="hero-button">Portfolio</a>
+        </div>
+        <div class="hero-image">
+          <img src="representante-rizobacter.png" alt="">
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Sobre mim -->
+
+  <section class="about">
+    <div class="about-content">
+      <div class="about-title">
+        <h1>Sobre Mim</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+      </div>
+      <div class="content">
+        <div class="content-img">
+          <img src="" alt="">
+          <div class="circle-one"></div>
+          <div class="circle-two"></div>
+        </div>
+        <div class="content-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eum voluptatum vero maiores dicta qui non! Commodi minima placeat, similique quaerat eveniet debitis maiores qui ducimus repellendus facilis itaque cupiditate!</p>
+          <hr>
+          <div class="social-media-about">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
