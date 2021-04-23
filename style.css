@@ -598,3 +598,88 @@
     font-weight: 900;
     padding: 20px 0;
 }
+
+.portfolio-type ul li{
+    padding: 5px;
+}
+
+.selected {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #75E6DA;
+    color: white;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.portfolio-images {
+    display: flex;
+    /* background-color: blue; */
+    width: 100%;
+}
+
+.portfolio-images ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.portfolio-images ul li {
+    height: 250px;
+    width: 200px;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.up {
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.up li.small {
+    flex-basis: 40%;
+}
+
+.up li.big {
+    flex-basis: 60%;
+}
+
+.down {
+    display: flex;
+    width: 100%;
+    /* background-color: brown; */
+    
+}
+
+.down .left-side {
+    flex-basis: 40%;
+    /* background-color: cadetblue; */
+    display: flex;
+}
+
+#alternate {
+    flex-basis: 100%;
+    /* background-color: crimson; */
+    height: 100%;
+}
+
+.down .right-side {
+    flex-basis: 60%;
+    /* background-color: rgb(0, 255, 55); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-side .big {
+    flex-basis: 100%;
+}
+
+.right-side .small{
+    flex-basis: 50%;
+}

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Portfolio Web</title>
   <!-- #D4F1F4 #75E6DA #189AB4 #05445E -->
+
 </head>
 <body>
   <!-- Pre-Header -->
@@ -30,8 +31,6 @@
       </nav>
     </div>
   </div>
-
-  
   
   <section class="first-content">
     <!-- Header -->
@@ -303,21 +302,32 @@
       <div class="portfolio-type">
         <ul>
           <li>Web Design</li>
-          <li>All</li>
+          <li class="selected">All</li>
           <li>Graphic Design</li>
         </ul>
       </div>
       <div class="portfolio-images">
         <ul>
-          <li class="big"><img src="" alt=""></li>
-          <li class="small"><img src="" alt=""></li>
-          <li class="big-alternate"><img src="" alt=""></li>
-          <li class="big"><img src="" alt=""></li>
-          <li class="small"><img src="" alt=""></li>
-          <li class="small"><img src="" alt=""></li>
+          <div class="up">
+            <li class="big port"></li>
+            <li class="small port"></li>
+          </div>
+          <div class="down">
+            <div class="left-side">
+              <li class="small port" id="alternate"></li>
+            </div>
+            <div class="right-side">
+              <li class="big port"></li>
+              <li class="small port"></li>
+              <li class="small port"></li>
+            </div>
+          </div>
         </ul>
       </div>
     </div>
   </section>
+
+
+  <script src="main.js"></script>
 </body>
 </html>
