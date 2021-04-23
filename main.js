@@ -20,9 +20,7 @@ function selectedPortfolio() {
 
 function selectPortfolio(element) {
 	if (element.target.parentNode === portfolioType) {
-    if (element.target === document.querySelector('.selected')) {
-      element.target.classList.remove('selected');
-    } else if (document.querySelector('.selected') !== null) {
+    if (document.querySelector('.selected') !== null) {
       document.querySelector('.selected').classList.remove('selected');
       element.target.classList.add('selected');
     } else {
