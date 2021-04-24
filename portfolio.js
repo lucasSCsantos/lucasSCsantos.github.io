@@ -1,21 +1,22 @@
 const portfolioImages = document.getElementsByClassName('port');
 const portfolioType = document.querySelector('.portfolio-type ul');
 const graphicDesign = [
-	'Preset_Bíbilico_4.jpg',
-	'Preset_Biblico_3.jpg',
-	'Preset_Bíblico_6_6.jpg',
-	'Preset_Bíblico_7.jpg',
-	'Preset_Bíblico_8.jpg',
-	'Preset_Bíblico_10.jpg',
+	'images/Preset_Bíbilico_4.jpg',
+	'images/Preset_Biblico_3.jpg',
+	'images/Preset_Bíblico_6_6.jpg',
+	'images/Preset_Bíblico_7.jpg',
+	'images/Preset_Bíblico_8.jpg',
+	'images/Preset_Bíblico_10.jpg',
 ];
 const webDesign = [
-	'site_1.png',
-	'site_2.png',
-	'site_3.png',
-	'site_4.png',
-	'site_1.png',
-	'site_2.png',
+	'images/site_1.png',
+	'images/site_2.png',
+	'images/site_3.png',
+	'images/site_4.png',
+	'images/site_1.png',
+	'images/site_2.png',
 ];
+const portType = document.querySelector('.port-type');
 
 function sorteioWebGraphic() {
 	const number = Math.floor(Math.random() * 2);
@@ -60,4 +61,4 @@ window.onload = function() {
 	selectedPortfolio();
 }
 
-addEventListener('click', selectPortfolio);
+portType.addEventListener('click', selectPortfolio);
