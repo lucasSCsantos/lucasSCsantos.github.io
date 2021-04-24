@@ -688,7 +688,7 @@
     flex-basis: 50%;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 1160px){
 
 /* PRE HEADER STYLE */
 
@@ -803,7 +803,7 @@
 
 
 .circle-two {
-    left: 118px;
+    margin-left: 90px;
 }
 
 /* texto */
@@ -863,5 +863,28 @@
     border-radius: 5px;
 }
 
+.whats {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.whats p {
+    text-align: center;
+}
+
+.whats-titles {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.whats-titles h3 {
+    text-align: center;
+}
+
+.what-we-do-itens {
+    padding: 10px;
+}
 
 }
