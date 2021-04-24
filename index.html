@@ -1,146 +1,338 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Portifólio Web</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Paleta de cor: 03045e-0077b6-00b4d8-90e0ef-caf0f8 -->
-    
-    <style>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b3c8342b88.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Web</title>
+  <!-- #D4F1F4 #75E6DA #189AB4 #05445E -->
 
-body{
-    text-align: center;
-    font-family: Lato, sans-serif;
-    width: 100%;
-    margin: 0; 
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-img{
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 15px;
-    border-style: solid;
-    border-color: #03045E;
-    padding: 10px;
-}
-
-h1{
-    color: #03045E;
-    font-weight: 800;
-}
-
-ul{
-    list-style-type: none;
-    margin-left: -43px
-}
-
-#second-session-div{
-    background-color: #0077B6;
-    width: 100%;
-    margin: none;
-    padding: 10px 0px 10px 0px;
-    background-size: cover;
-    color: white ;
-}
-
-.links{
-    text-decoration: unset;
-    color: #0077B6;
-}
-
-#strongLi{
-    font-weight: bolder;
-}
-
-.links:hover{
-    color: #00B4D8;
-}
-
-  </style>
 </head>
 <body>
-
-<!-- SEÇÃO DE INICIO, INFO PESSOAL E FOTO -->
-
- 
-<div class="first_section">
-  <div class="first_title">
-  <img src="lucas-lindo.jpg" alt="Foto autor do portifólio" width="300px" id="imagem"> 
-
-  <h1>LUCAS SANTANA CRISTOVAM DOS SANTOS</h1> 
-</div>
-  
-<div class="fisrt_text" id="info">
-  <p>
-    Eu tenho 19 anos, sou natural de <strong>Salvador-BA</strong>, 
-
-    
-
-    e atualmente moro em vítoria da da conquista.
-
-    
-
-    Cursei <strong>Engenharia de Computação</strong> por um ano
-
-    
-
-    na instituição de ensino Senai Cimatec. 
-    
-    
-
-    Atualmente estou estudando Desenvolvimento Web
-   
-    
-
-    no curso da <strong>Trybe</strong>. 
-
-  </p>
-  <br>
-</div>
-</div>    
-  <!-- SEGUNDA SEÇÃO INFOS PROFISSIONAIS -->
-<div id="second-session-div">
-  <div class="second_session">
-    <h2 id="habi">Habilidades:</h2>
-  
-      <ul>
-        <li><strong id="strongLi">Extrema facilidade no 
-        aprendizado de tecnologias</strong></li>
-        <br>
-        <li>Inglês Intermediário</li>
-        <br>
-        <li>Edição e criação de imagem com Photoshop</li>
-        <br>
-        <li>Edição de vídeo com Vegas Pro</li>
-        <br>
-        <li>Prática avançada em ferramentas Office</li>
-        <br>
-        <li>HTML</li>
-        
-      </ul>
-  </div>
-</div>
-  <br>  
-  <!-- TERCEIRA SEÇÃO COM LINKS  -->
-  <div class="third-session-div">
-    <div class="third_session">
-      <h2>Links:</h2>
-    
-        <ul >
-          <li><a href="#imagem" class="links">Foto</a> </li><br>
-          <li><a href="#info" class="links">Iformações pessoais</a> </li><br>
-          <li><a href="#habi" class="links">Habilidades</a> </li><br>
-          <li><a href="https://www.bibliaonline.com.br/acf/mt/25/13" target="_blank" class="links">Leia</a></li><br>
-        </ul>
+  <!-- Pre-Header -->
+  <div class="pre-header">
+    <div class="pre-header-content">
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <a href="">luc.cristovam10@gmail.com</a>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-mobile"></i>
+          <a href="">+55 (71) 98184-9630</a>
+        </div>
+      </div>
+      <nav class="social-media">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </nav>
     </div>
   </div>
+  
+  <section class="first-content">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="logo"> 
+          <i class="fas fa-palette"></i>
+          <a href="">
+            LUCAS
+          </a>
+        </div>
+        <nav class="header-nav">
+          <a href="#home">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#do">Trabalho</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="">Testemunhos</a>
+          <a href="">Preço</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Eu sou Lucas</h1>
+          <h2>Web Developer</h2>
+            <p>Eu tenho 19 anos, sou natural de <strong>Salvador-BA</strong>,
+            e atualmente moro em vítoria da da conquista.
+            Cursei <strong>Engenharia de Computação</strong> por um ano
+            na instituição de ensino Senai Cimatec. 
+            Atualmente estou estudando Desenvolvimento Web
+            no curso da <strong>Trybe</strong>.</p>
+          <a href="" class="hero-button">Portfolio</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-image.png" alt="">
+        </div>
+      </div>
+    </section>
+  </section>
 
-    
+  <!-- Sobre mim -->
+  <main class="about-main-content">
+    <section id="about" class="about">
+      <div class="about-content">
+        <div class="about-title">
+          <h1>Sobre Mim</h1>
+          <h2>Simplicidade e coragem são os valores que me definem</h2>
+        </div>
+        <div class="content">
+          <div class="content-img">
+            <img src="images/lindo.jpg" alt="">
+            <div class="circle-one"></div>
+            <div class="circle-two"></div>
+          </div>
+          <div class="content-text">
+            <p>Aos 19 anos em meio a pandemia, saí da casa dos meus pais e fui morar sozinho no interior. Desde então tenho estudado Desenvolvimento Web e feito diversos projetos. Meu foco é sempre um bom atendimento e esforço para garantir a realização do cliente. Trabalho desde o design a construção do site em si, objetivando sempre que o produto final seja o mais proximo do sonho do cliente. </p>
+            <hr>
+            <div class="social-media-about">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="other">
+      <div class="other-content">
+        <div class="my-skills">
+          <h3>Habilidades</h3>
+          <div class="skills-levels">
+            <div class="skill-level">
+              <p class="skill">
+                Photoshop
+              </p>
+              <div class="bar">
+                <div class="level">  
+                </div>
+              </div> 
+            </div>
+            <div class="skill-level">
+              <p class="skill">
+                JavaScript
+              </p>
+              <div class="bar">
+                <div class="level">  
+               
+                </div>
+              </div>
+            </div>
+            <div class="skill-level">
+              <p class="skill">
+                HTML
+              </p>
+              <div class="bar">
+                <div class="level">  
+                </div>
+              </div> 
+            </div>
+            <div class="skill-level">
+              <p class="skill">
+                CSS
+              </p>
+              <div class="bar">
+                <div class="level">  
+                </div>
+              </div> 
+            </div>
+          </div>
+          </div>
+        <div class="my-services">
+          <h3>Serviços</h3>
+          <div class="services">
+            <div class="service">
+              <div class="icons">
+                <i class="fas fa-pen-nib"></i>
+              </div>
+                <div class="services-text">
+                <h3>Design</h3>
+                <p>Designs responsivos e atuais</p>
+              </div>
+            </div>
+            <div class="service">
+              <div class="icons">
+  
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="services-text">
+                <h3>Marketing</h3>
+                <p>Marketing personalisado para o cliente</p>
+              </div>
+            </div>
+            <div class="service">
+              <div class="icons">
+  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="services-text">
+                <h3>Desenvolvimento</h3>
+                <p>Desenvolvimento web completo</p>
+              </div>
+            </div>
+            <div class="service">
+              <div class="icons">
+                <i class="fas fa-user"></i>
+              </div>
+                <div class="services-text">
+                <h3>User Experience</h3>
+                <p>Experiencia de usuario detalhada</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- O que fazemos -->
+
+  <section id="do" class="what-we-do">
+    <div class="what-we-do-content">
+      <div class="what-we-do-title">
+        <h1>O que eu faço</h1>
+        <h2>Trabalho em diversas aréas do desenvolvimento</h2>
+      </div>
+
+      <div class="what-we-do-itens">
+        <div class="whats">
+          <div class="whats-titles">
+            <div class="what-icon">
+              <i class="fas fa-laptop"></i>
+              <div class="icon-style-one"></div>
+              <div class="icon-style-two"></div>
+            </div>
+            <h3>
+              Ui/Ux Design
+            </h3>
+          </div>
+          <p>
+            Design avançado pensando sempre no usario. Criação focada tanto na aparencia como a experiencia do usario.
+          </p>
+        </div>
+
+        <div class="whats">
+          <div class="whats-titles">
+            <div class="what-icon">
+              <i class="fas fa-laptop-code"></i>
+              <div class="icon-style-one"></div>
+              <div class="icon-style-two"></div>
+            </div>
+            <h3>
+              Desenvolvimento
+            </h3>
+          </div>
+          <p>
+            Desenvolvimento completo de frontend com HTML,CSS e JavaScript e backend com JavaScript em NodeJs.
+          </p>
+        </div>
+        <div class="whats">
+          <div class="whats-titles">
+            <div class="what-icon">
+              <i class="fas fa-bullhorn"></i>
+              <div class="icon-style-one"></div>
+              <div class="icon-style-two"></div>
+            </div>
+            <h3>
+              Marketing
+            </h3>
+          </div>
+          <p>
+            Marketing especializado para a necessidade do cliente. Uma campanha diferente para cada tipo de nicho e conteúdo.
+          </p>
+        </div>
+        <div class="whats">
+          <div class="whats-titles">
+            <div class="what-icon">
+              <i class="fas fa-headset"></i>
+              <div class="icon-style-one"></div>
+              <div class="icon-style-two"></div>
+            </div>
+            <h3>
+              Suporte
+            </h3>
+          </div>
+          <p>
+            Suporte atencioso e integral para ajudar o cliente da melhor forma e a qualquer momento.
+          </p>
+        </div>
+        <div class="whats">
+          <div class="whats-titles">
+            <div class="what-icon">
+              <i class="fas fa-globe-americas"></i>
+              <div class="icon-style-one"></div>
+              <div class="icon-style-two"></div>
+            </div>
+            <h3>
+              Inglês e Espanhol
+            </h3>
+          </div>
+          <p>
+            Inglês e Espanhol para atender clientes de diferentes partes do mundo.
+          </p>
+        </div>
+        <div class="whats">
+          <div class="whats-titles">
+            <div class="what-icon">
+              <i class="fas fa-sitemap"></i>
+              <div class="icon-style-one"></div>
+              <div class="icon-style-two"></div>
+            </div>
+            <h3>
+              Organização
+            </h3>
+          </div>
+          <p>
+            Manuseio de diversas formas de organização avançada com uso de git e gitHub
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+
+  <section id="portfolio" class="portfolio">
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <h1>Portfólio</h1>
+        <h2>Alguns de meus ultimos trabalhos</h2>
+      </div>
+      <div class="portfolio-type">
+        <ul class="port-type">
+          <li class=>Design Web</li>
+          <li class="selected">Tudo</li>
+          <li class=>Design Gráfico</li>
+        </ul>
+      </div>
+      <div class="portfolio-images">
+        <ul>
+          <div class="up">
+            <li class="big port"></li>
+            <li class="small port"></li>
+          </div>
+          <div class="down">
+            <div class="left-side">
+              <li class="small port" id="alternate"></li>
+            </div>
+            <div class="right-side">
+              <li class="big port"></li>
+              <li class="small port"></li>
+              <li class="small port"></li>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="portfolio.js"></script>
 </body>
 </html>
