@@ -9,12 +9,12 @@ const graphicDesign = [
 	'images/Preset_Bíblico_10.jpg',
 ];
 const webDesign = [
-	'images/site_1.png',
-	'images/site_2.png',
-	'images/site_3.png',
-	'images/site_4.png',
-	'images/site_1.png',
-	'images/site_2.png',
+	'images/site-1.png',
+	'images/site-2.png',
+	'images/site-3.png',
+	'images/site-4.png',
+	'images/site-1.png',
+	'images/site-2.png',
 ];
 const portType = document.querySelector('.port-type');
 
