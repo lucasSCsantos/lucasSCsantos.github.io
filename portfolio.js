@@ -29,12 +29,12 @@ function sorteioWebGraphic() {
 
 function selectedPortfolio() {
 	const selected = document.querySelector('.selected');
-	if (selected.innerText === 'All') {
+	if (selected.innerText === 'Tudo') {
 		for (let index = 0; index < portfolioImages.length; index += 1){
 			const array = sorteioWebGraphic();
 			portfolioImages[index].style.backgroundImage = `url(${array[index]})`;
 		}
-	} else if (selected.innerText === 'Web Design') {
+	} else if (selected.innerText === 'Design Web') {
 		for (let index = 0; index < portfolioImages.length; index += 1){
 			portfolioImages[index].style.backgroundImage = `url(${webDesign[index]})`;
 		}
